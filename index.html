@@ -1,84 +1,145 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portfólio do Fontes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="style.css">
+<title>Portfólio do Fontes</title>
 </head>
-<body class="bg-primary text-light">
 
-<header class="container text-center py-5">
-<img src="img/avatar-pastel.png" alt="Avatar estiloso e aleatório" class="rounded-circle mb-3" width="150" height="150">
-<h1 class="display-4">E aí! Eu sou o fontes</h1>
-<p class="lead">Gosto de códigos, comida de feira, playlists malucas e memes de qualidade duvidosa.</p>
-<p>Se der pra programar comendo pastel e ouvindo trilha sonora de filme, tô dentro.</p>
+<body>
+<header class="container text-center">
+<img src="img/IMG_4679.jpeg" alt="avatar do Fontes" class="rounded-circle" width="150" height="150"
+srcset="">
+<p class="lead">Eu sou Fontes_</p>
+<h1>Eu crio fontes e designs</h1>
+<p>Sou designer gráfico e tipógrafo. Crio fontes personalizadas para projetos digitais e impressos. Compartilho técnicas de design e dicas sobre tipografia. Confira meus trabalhos!</p>
+<p>Minhas especialidades</p>
+<div>
+<p class="badge bg-secondary">Tipografia</p>
+<p class="badge bg-secondary">Design Gráfico</p>
+<p class="badge bg-secondary">Illustrator</p>
+<p class="badge bg-secondary">Photoshop</p>
+</div>
 </header>
-
-<main class="container">
-<section class="mb-5">
-<h2><i class="bi bi-cpu-fill"></i> Superpoderes Digitais</h2>
-<span class="badge bg-warning text-dark">HTML</span>
-<span class="badge bg-warning text-dark">CSS</span>
-<span class="badge bg-warning text-dark">JavaScript</span>
-<span class="badge bg-warning text-dark">Node.js</span>
-<span class="badge bg-warning text-dark">Dominar memes</span>
-</section>
-
-<section>
-<h2><i class="bi bi-infinity"></i> Coisas Que Já Inventei</h2>
-<div class="row g-4">
-
-<!-- Projeto 1 -->
+<main class="container mt-5">
+<h2>Meus trabalhos</h2>
+<div class="row">
+<!-- Trabalho 1 -->
 <div class="col-md-4">
-<div class="card text-dark">
-<img src="img/projeto-pastel.png" class="card-img-top" alt="Projeto de site de pastel">
+<div class="card">
+<img src="img/trabalho.png" class="card-img-top" alt="Imagem do projeto de fonte personalizada">
 <div class="card-body">
-<h5 class="card-title">PastelGPT</h5>
-<p class="card-text">Site que sugere o sabor ideal de pastel com base no seu humor e fase da lua.</p>
-<a href="#" class="btn btn-outline-primary btn-sm">Ver projeto</a>
+<h5 class="card-title">Fonte Nova: Uma Família Tipográfica Completa</h5>
+<p class="card-text">Este projeto apresenta uma família tipográfica criada do zero, com estilos variados para uso em títulos, textos e logos. A fonte é otimizada para leitura em telas e impressos.</p>
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o trabalho</button>
 </div>
 </div>
 </div>
-
-<!-- Projeto 2 -->
+<!-- Trabalho 2 -->
 <div class="col-md-4">
-<div class="card text-dark">
-<img src="img/projeto-playlist.png" class="card-img-top" alt="Projeto de playlists aleatórias">
+<div class="card">
+<img src="img/trabalho2.jpeg" class="card-img-top" alt="Imagem do projeto de branding">
 <div class="card-body">
-<h5 class="card-title">Playlist Caótica™</h5>
-<p class="card-text">Mistura pagode, lo-fi e abertura de anime. Funciona? Ninguém sabe. Mas toca direto no meu fone.</p>
-<a href="#" class="btn btn-outline-primary btn-sm">Ver projeto</a>
+<h5 class="card-title">Branding Futurista: Identidade Visual para Startups</h5>
+<p class="card-text">Projeto de identidade visual que inclui logotipo, paleta de cores e aplicação de fontes customizadas para startups do setor de tecnologia e inovação.</p>
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o trabalho</button>
 </div>
 </div>
 </div>
 
-<!-- Projeto 3 -->
+<!-- Trabalho 3 -->
 <div class="col-md-4">
-<div class="card text-dark">
-<img src="img/projeto-meme-sensor.png" class="card-img-top" alt="Site de memes com IA">
+<div class="card">
+<img src="img/trabalho3.jpeg" class="card-img-top" alt="Imagem do projeto de design editorial">
 <div class="card-body">
-<h5 class="card-title">Sensor de Meme™</h5>
-<p class="card-text">Um site que detecta o nível de humor de uma imagem e classifica de “meh” até “perdi tudo e ri”.</p>
-<a href="#" class="btn btn-outline-primary btn-sm">Ver projeto</a>
+<h5 class="card-title">Design Editorial: Revista Digital sobre Arte Urbana</h5>
+<p class="card-text">Projeto editorial digital que explora o uso de tipografia experimental e layouts modernos para uma revista online focada em arte urbana e cultura pop.</p>
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o trabalho</button>
 </div>
 </div>
 </div>
-
 </div>
-</section>
 </main>
 
-<footer class="text-center py-4 mt-5 bg-light text-primary">
-<p>&copy; 2025 - Criado por fontes. Powered by pastel, café e bugs resolvidos na sorte.</p>
+<!-- Modal 1 -->
+<div class="modal" id="modal1" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Fonte Nova: Uma Família Tipográfica Completa</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>Este projeto envolveu o desenvolvimento completo de uma família tipográfica, começando pelo esboço manual, passando pela digitalização e refinamento dos glifos. A fonte inclui variantes como regular, negrito, itálico e condensada.</p>
+<p>A estrutura da fonte foi planejada para garantir legibilidade e harmonia visual, com atenção especial ao espaçamento entre caracteres e linhas.</p>
+<p>O processo utilizou ferramentas como FontForge e Glyphs, garantindo compatibilidade com os principais sistemas operacionais e aplicações gráficas.</p>
+<p>O design moderno e versátil da fonte a torna ideal para uso em branding, publicidade e design editorial, oferecendo flexibilidade para diferentes aplicações.</p>
+<img src="img/trabalho1.png" class="img-fluid w-100" alt="Imagem representativa do projeto de fonte personalizada">
+</div>
+<div class="modal-footer">
+<a href="https://meusite.com/fonte-nova">Ver projeto ao vivo</a>
+<a href="https://github.com/fontes877/">Ver código do projeto</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Modal 2 -->
+<div class="modal" id="modal2" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Branding Futurista: Identidade Visual para Startups</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>Este trabalho consiste em uma identidade visual completa, que une logotipo minimalista com tipografia customizada para transmitir inovação e confiança. A paleta de cores inclui tons metálicos e neons.</p>
+<p>Foram usados softwares como Adobe Illustrator e Photoshop para criação e refinamento dos elementos visuais.</p>
+<p>A aplicação prática deste branding inclui materiais impressos, website e redes sociais, garantindo coerência em todos os canais.</p>
+<p>A combinação da fonte personalizada com elementos gráficos cria uma presença visual marcante e moderna para as startups.</p>
+<img src="img/trabalho2.jpeg" class="img-fluid w-100" alt="Imagem do projeto de branding">
+</div>
+<div class="modal-footer">
+<a href="https://meusite.com/branding-futurista">Ver projeto ao vivo</a>
+<a href="https://github.com/fontes/branding-futurista">Ver código do projeto</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal" id="modal3" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Design Editorial: Revista Digital sobre Arte Urbana</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>Projeto de design editorial digital que explora layouts dinâmicos e tipografia experimental para envolver leitores em temas de arte urbana e cultura contemporânea.</p>
+<p>Foram criados templates flexíveis para artigos, entrevistas e galerias de imagens, usando Adobe InDesign e ferramentas web.</p>
+<p>A tipografia escolhida combina fontes serifadas clássicas com sans-serif modernas, criando um contraste visual e melhor leitura.</p>
+<p>A revista é otimizada para leitura em desktops, tablets e smartphones, oferecendo uma experiência imersiva e interativa.</p>
+<img src="img/trabalho3.jpeg" alt="Projeto 3" class="img-fluid w-100">
+</div>
+<div class="modal-footer">
+<a href="https://meusite.com/revista-arte-urbana">Ver projeto ao vivo</a>
+</div>
+</div>
+</div>
+</div>
+<footer class="container py-5">
+<h2>Contato</h2>
+<div>
+<i class="bi bi-github"></i>
+<a href="https://github.com/fontes">GitHub</a>
+</div>
+<p class="my-5 text-center">© Copyright 2025. Produzido por Fontes Designer</p>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
-
-</main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
